@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Gilroy;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url("../assets/fonts/Gilroy-Light.otf");
+}
+
+.footer_wrapper {
+  background-image: url(../assets/images/Rectangle\ 4.svg);
+  background-repeat: no-repeat;
+  color: white;
+  padding-left: 13rem;
+  padding-top: 5rem;
+  position: relative;
+}
+
+.text_item h2 {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 2rem;
+}
+
+.text_item p {
+  margin-right: 37rem;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  line-height: 1.7rem;
+  opacity: 0.6;
+  margin-bottom: 6rem;
+}
+
+.btn {
+  position: absolute;
+  text-align: center;
+  right: 197px;
+  top: 165px;
+  padding: 15px 75px;
+}
+
+.line {
+  border-bottom: 1px solid #fff;
+  opacity: 0.4;
+  margin-right: 197px;
+}
+
+.left_down_item {
+  display: grid;
+  grid-template-columns: 40% 25% 25%;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+.about_list li {
+  margin: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.left_down_item h2 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.about_contact li {
+  padding-bottom: 1.5rem;
+}
+
+.about_contact{
+  display: grid;
+  grid-template-columns: 4rem auto;
+}
+
+.logo_column_list {
+  display: grid;
+  row-gap: 10px;
+}
